@@ -18,27 +18,27 @@ raw_creacion_y_produccion_sonora_y_radiofonica = []
 raw_periodismo = []
 raw_publicidad = []
 
-with open("categoria/periodismo.txt", "r",encoding='utf8') as file_1:
+with open("data/categorias/periodismo.txt", "r",encoding='utf8') as file_1:
   for line in file_1:
     raw_periodismo.append(line.strip())
 
-with open("categoria/publicidad.txt", "r",encoding='utf8') as file_2:
+with open("data/categorias/publicidad.txt", "r",encoding='utf8') as file_2:
   for line in file_2:
     raw_publicidad.append(line.strip())
 
-with open("categoria/comunicacion_organizacional.txt", "r",encoding='utf8') as file_3:
+with open("data/categorias/comunicacion_organizacional.txt", "r",encoding='utf8') as file_3:
   for line in file_3:
     raw_comunicacion_organizacional.append(line.strip())
 
-with open("categoria/creacion_y_produccion_audiovisual.txt", "r",encoding='utf8') as file_4:
+with open("data/categorias/creacion_y_produccion_audiovisual.txt", "r",encoding='utf8') as file_4:
   for line in file_4:
     raw_creacion_y_produccion_audiovisual.append(line.strip())
 
-with open("categoria/creacion_y_produccion_editorial_y_multimedial.txt", "r",encoding='utf8') as file_5:
+with open("data/categorias/creacion_y_produccion_editorial_y_multimedial.txt", "r",encoding='utf8') as file_5:
   for line in file_5:
     raw_creacion_y_produccion_editorial_y_multimedial.append(line.strip())
 
-with open("categoria/creacion_y_produccion_sonora_y_radiofonica.txt", "r",encoding='utf8') as file_6:
+with open("data/categorias/creacion_y_produccion_sonora_y_radiofonica.txt", "r",encoding='utf8') as file_6:
   for line in file_6:
     raw_creacion_y_produccion_sonora_y_radiofonica.append(line.strip())
 
