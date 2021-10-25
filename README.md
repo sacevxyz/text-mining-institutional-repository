@@ -1,4 +1,5 @@
-# mineria-de-texto
+# Teto mining for institutional repositories
+
 Text mining script to extract data from Dspace repositories.
 
 
